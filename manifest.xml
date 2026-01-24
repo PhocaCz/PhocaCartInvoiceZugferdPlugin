@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<updates>
+	<update>
+		<name><![CDATA[ Phoca Cart Invoice Zugferd Plugin ]]></name>
+		<description><![CDATA[ Phoca Cart Invoice - ZUGFeRD Plugin - ZUGFeRD/Factur-X electronic invoice format plugin for Phoca Cart ]]></description>
+		<element>zugferd</element>
+		<folder>pci</folder>
+		<type>plugin</type>
+		<version>6.1.0Alpha</version>
+		<infourl title="Phoca Cart Invoice Zugferd Plugin 6.1.0Alpha">https://www.phoca.cz/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartInvoiceZugferdPlugin/releases/download/6.1.0Alpha/plg_pci_zugferd_v6.1.0Alpha.zip</downloadurl>
+		</downloads>
+		<sha512>c4c48db4475a241c000846d5c9c08fa2bf42301f012cd4dcb1a67afc6b67508f22f89bf8e09e3d04d2552d87ea7c2b080a6ba83120246d6abe6f1547c9374693</sha512>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
+		<maintainerurl>https://www.phoca.cz/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="(5|6)\.*"/>
+		<client>site</client>
+	</update>
+</updates>

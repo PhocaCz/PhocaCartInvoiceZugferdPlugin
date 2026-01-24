@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="pci" method="upgrade" version="6.0">
+	<name>plg_pci_zugferd</name>
+	<author>Jan Pavelka (www.phoca.cz)</author>
+	<creationDate>24/01/2026</creationDate>
+	<authorEmail></authorEmail>
+	<authorUrl>https://www.phoca.cz</authorUrl>
+	<copyright>Jan Pavelka</copyright>
+	<license>GNU/GPL</license>
+	<version>6.1.0Alpha</version>
+	<description>PLG_PCI_ZUGFERD_DESCRIPTION</description>
+	<projectName>PhocaCartInvoiceZugferdPlugin</projectName>
+
+	<files>
+		<folder>tmpl</folder>
+		<folder>helpers</folder>
+		<filename plugin="zugferd">index.html</filename>
+		<filename plugin="zugferd">manifest.xml</filename>
+		<filename plugin="zugferd">zugferd.php</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_pci_zugferd.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_pci_zugferd.sys.ini</language>
+	</languages>
+
+	<administration>
+		<languages>
+			<language tag="en-GB">language/en-GB/en-GB.plg_pci_zugferd.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.plg_pci_zugferd.sys.ini</language>
+		</languages>
+	</administration>
+	
+	<config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="profile" type="list" default="EN16931" label="PLG_PCI_ZUGFERD_PROFILE_LABEL" description="PLG_PCI_ZUGFERD_PROFILE_DESC">
+                    <option value="MINIMUM">MINIMUM</option>
+                    <option value="BASIC">BASIC</option>
+                    <option value="EN16931">EN16931 (Comfort)</option>
+                    <option value="EXTENDED">EXTENDED</option>
+                </field>
+                <field name="seller_name" type="text" default="" label="PLG_PCI_ZUGFERD_SELLER_NAME_LABEL" description="PLG_PCI_ZUGFERD_SELLER_NAME_DESC"/>
+                <field name="seller_vat" type="text" default="" label="PLG_PCI_ZUGFERD_SELLER_VAT_LABEL" description="PLG_PCI_ZUGFERD_SELLER_VAT_DESC"/>
+                <field name="seller_street" type="text" default="" label="PLG_PCI_ZUGFERD_SELLER_STREET_LABEL" description="PLG_PCI_ZUGFERD_SELLER_STREET_DESC"/>
+                <field name="seller_city" type="text" default="" label="PLG_PCI_ZUGFERD_SELLER_CITY_LABEL" description="PLG_PCI_ZUGFERD_SELLER_CITY_DESC"/>
+                <field name="seller_zip" type="text" default="" label="PLG_PCI_ZUGFERD_SELLER_ZIP_LABEL" description="PLG_PCI_ZUGFERD_SELLER_ZIP_DESC"/>
+                <field name="seller_country" type="text" default="DE" label="PLG_PCI_ZUGFERD_SELLER_COUNTRY_LABEL" description="PLG_PCI_ZUGFERD_SELLER_COUNTRY_DESC"/>
+            </fieldset>
+        </fields>
+    </config>
+
+	<updateservers>
+		<server type="extension" name="PLG_PCI_ZUGFERD" priority="1"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaCartInvoiceZugferdPlugin/master/manifest.xml]]></server>
+	</updateservers>
+</extension>

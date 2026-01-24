@@ -1,0 +1,19 @@
+{
+	"author": "Jan Pavelka (www.phoca.cz)",
+	"authorUrl": "https://www.phoca.cz",
+	"copyright": "Jan Pavelka",
+	"license": "GNU/GPL",
+	"projectName": "PhocaCartInvoiceZugferdPlugin",
+	"extensionName": "Phoca Cart Invoice Zugferd Plugin",
+	"projectInitials" : "PC",				  
+	"description": "Phoca Cart Invoice - ZUGFeRD Plugin - ZUGFeRD/Factur-X electronic invoice format plugin for Phoca Cart",
+	"projectUrl": "https://www.phoca.cz/phocacart-extensions/2-plugins",
+	"projectDocumentationUrl": "https://www.phoca.cz/documentation/category/115-phoca-cart",
+	"projectMainComponent": "Phoca Cart",
+	"projectMainComponentInfoUrl": "https://www.phoca.cz/project/phocacart-joomla-ecommerce",
+	"projectDemo" : {
+		"Joomla! - Phoca Cart Demo": "https://www.phoca.cz/phocacartdemo/",
+		"Joomla! - Phoca Cart - Phoca Premiere Template Demo": "https://www.phoca.cz/phocacartdemo/premiere/"
+	},
+	"projectColor": "#129ed9"
+}
