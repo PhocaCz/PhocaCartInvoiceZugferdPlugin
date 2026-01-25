@@ -2,12 +2,12 @@
 <extension type="plugin" group="pci" method="upgrade" version="6.0">
 	<name>plg_pci_zugferd</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
-	<creationDate>24/01/2026</creationDate>
+	<creationDate>25/01/2026</creationDate>
 	<authorEmail></authorEmail>
 	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
 	<license>GNU/GPL</license>
-	<version>6.1.0Alpha</version>
+	<version>6.1.0Alpha2</version>
 	<description>PLG_PCI_ZUGFERD_DESCRIPTION</description>
 	<projectName>PhocaCartInvoiceZugferdPlugin</projectName>
 
