@@ -52,7 +52,7 @@ class plgPCIZugferd extends CMSPlugin
         if ($app->isClient('administrator')) {
             $link = Route::_('index.php?option=com_phocacart&view=phocacartorderview&tmpl=component&format=raw&id=' . (int)$orderId . '&type=5&subtype=zugferd');
 
-            $icon = '<a href="' . $link . '" class="btn btn-secondary btn-small btn-xs ph-btn ph-e-invoice-btn ph-orders-btn" role="button" title="' . Text::_('PLG_PCI_ZUGFERD_DOWNLOAD') . '">';
+            $icon = '<a href="' . $link . '" class="btn btn-secondary btn-small btn-xs ph-btn ph-order ph-e-invoice-btn ph-orders-btn" role="button" title="' . Text::_('PLG_PCI_ZUGFERD_DOWNLOAD') . '">';
             $icon .= '<span class="icon-download ph-icon-info" title="' . Text::_('PLG_PCI_ZUGFERD_DOWNLOAD') . '"></span>';
             $icon .= '<span class="ph-icon-info-txt">' . Text::_('PLG_PCI_ZUGFERD_LABEL') . '</span>';
             $icon .= '</a>';

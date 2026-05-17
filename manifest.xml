@@ -6,12 +6,12 @@
 		<element>zugferd</element>
 		<folder>pci</folder>
 		<type>plugin</type>
-		<version>6.1.0Alpha2</version>
-		<infourl title="Phoca Cart Invoice Zugferd Plugin 6.1.0Alpha2">https://www.phoca.cz/</infourl>
+		<version>6.1.0</version>
+		<infourl title="Phoca Cart Invoice Zugferd Plugin 6.1.0">https://www.phoca.cz/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartInvoiceZugferdPlugin/releases/download/6.1.0Alpha2/plg_pci_zugferd_v6.1.0Alpha2.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartInvoiceZugferdPlugin/releases/download/6.1.0/plg_pci_zugferd_v6.1.0.zip</downloadurl>
 		</downloads>
-		<sha512>8e388ed8fdd5daa82291c4a6584f33a520ae76e64931f2e030737375915246eb04ef8b81e530a0fdaba750de2a7184db92c23d4a143b8bfa8677a102dfdf097b</sha512>
+		<sha512>79ec9c2530566b6add6b950260e1cdce6bde5c17925e596e6a9bc2955c97e415253e0a5302efc6561b58400194241cdb7122f8b3404d4e4643ab4a2365376f9e</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
